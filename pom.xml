@@ -56,7 +56,6 @@
                     <layers>
                         <layer>jaxrs-server</layer>
                         <layer>microprofile-config</layer>
-                        <layer>observability</layer>
                     </layers>
                     <plugin-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>

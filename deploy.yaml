@@ -27,7 +27,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: my-java-wildfly-svc
+  name: pipeline-devfile-example
 spec:
 ports:
   - name: http-8090
