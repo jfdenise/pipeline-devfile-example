@@ -4,13 +4,7 @@ metadata:
   name: my-java-wildfly
 spec:
   replicas: 1
-  selector:
-    matchLabels:
-      app: java-wildfly-app
   template:
-    metadata:
-      labels:
-        app: java-wildfly-app
     spec:
       containers:
         - name: my-java-wildfly
@@ -53,5 +47,3 @@ ports:
     port: 8080
     protocol: TCP
     targetPort: 8080
-selector:
-  app: java-wildfly-app
