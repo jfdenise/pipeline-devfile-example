@@ -31,7 +31,7 @@ components:
       deployment/replicas: 1
       deployment/cpuLimit: '100m'
       deployment/cpuRequest: 10m
-      deployment/memoryLimit: 250Mi
+      deployment/memoryLimit: 1024Mi
       deployment/memoryRequest: 100Mi
       deployment/container-port: 8080
     kubernetes:
