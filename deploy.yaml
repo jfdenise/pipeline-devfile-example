@@ -11,8 +11,8 @@ spec:
           image: java-useless-image:latest
           resources:
             limits:
-              memory: "1024Mi"
-              cpu: "500m"
+              memory: "512Mi"
+              cpu: "1"
           readinessProbe:
             httpGet:
               path: /health/ready
